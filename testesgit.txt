@@ -1,0 +1,194 @@
+PS C:\Users\Alunos\Desktop\Lucas Basso> >git init
+> : O termo '>' não é reconhecido como nome de cmdlet, função, arquivo de script ou programa operável. Verifique 
+a grafia do nome ou, se um caminho tiver sido incluído, veja se o caminho está correto e tente novamente.
+No linha:1 caractere:1
++ >git init
++ ~
+    + CategoryInfo          : ObjectNotFound: (>:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Alunos\Desktop\Lucas Basso> git init
+PS C:\Users\Alunos\Desktop\Lucas Basso> git remote add origin https://github.com/LucasBasso83/DesWeb.git
+PS C:\Users\Alunos\Desktop\Lucas Basso> git branch -M main
+PS C:\Users\Alunos\Desktop\Lucas Basso> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/LucasBasso83/DesWeb.git'
+PS C:\Users\Alunos\Desktop\Lucas Basso> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/LucasBasso83/DesWeb.git'
+PS C:\Users\Alunos\Desktop\Lucas Basso> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/LucasBasso83/DesWeb.git'
+PS C:\Users\Alunos\Desktop\Lucas Basso> git remote add origin https://github.com/LucasBasso83/DesWeb.git
+error: remote origin already exists.
+PS C:\Users\Alunos\Desktop\Lucas Basso> git config --global user.email lucas.rego01@fatec.sp.gov.br
+PS C:\Users\Alunos\Desktop\Lucas Basso> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/LucasBasso83/DesWeb.git'
+PS C:\Users\Alunos\Desktop\Lucas Basso> git config --load user.name LucasBasso83
+error: unknown option `load'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+Type
+    -t, --type <type>     value is given this type
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+
+Other
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+PS C:\Users\Alunos\Desktop\Lucas Basso> git push -u origin main
+error: src refspec main does not match any
+PS C:\Users\Alunos\Desktop\Lucas Basso> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/LucasBasso83/DesWeb.git'
+PS C:\Users\Alunos\Desktop\Lucas Basso> git config --global user.name LucasBasso83
+PS C:\Users\Alunos\Desktop\Lucas Basso> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/LucasBasso83/DesWeb.git'
+PS C:\Users\Alunos\Desktop\Lucas Basso> git push
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\Alunos\Desktop\Lucas Basso> git add .
+[main (root-commit) e746329] commit01
+ 6 files changed, 112 insertions(+)
+ create mode 100644 IMG/164483761_131782392285323_5736417224568414762_n.jpg
+ create mode 100644 IMG/370570135_782374343892788_150497939496356583_n.jpg
+ create mode 100644 IMG/370857872_782425003887722_4901195040415208664_n.jpg
+ create mode 100644 IMG/375058502_785705076893048_151849455924102993_n.jpg
+ create mode 100644 Index.html
+ create mode 100644 cores.txt
+PS C:\Users\Alunos\Desktop\Lucas Basso> git push
+fatal: The current branch main has no upstream branch.
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\Alunos\Desktop\Lucas Basso> git push -u origin main 
+info: please complete authentication in your browser...
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 398.52 KiB | 12.45 MiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/LucasBasso83/DesWeb.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Alunos\Desktop\Lucas Basso> cd C:\dsm\pythonProject\aula5
+PS C:\dsm\pythonProject\aula5> git add .
+[master (root-commit) c4ff86d] commit02
+ 15 files changed, 154 insertions(+)
+ create mode 100644 .idea/aula5.iml
+ create mode 100644 .idea/inspectionProfiles/profiles_settings.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 "divis\303\243o"
+ create mode 100644 "divis\303\243o.py"
+ create mode 100644 ex1.py
+ create mode 100644 ex2.py
+ create mode 100644 ex2outro.py
+ create mode 100644 exemplo3.py
+ create mode 100644 main.py
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+PS C:\dsm\pythonProject\aula5> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+
+PS C:\dsm\pythonProject\aula5> git config --global user.email lucas.rego01@fatec.sp.gov.br
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+PS C:\dsm\pythonProject\aula5> git remote add origin https://github.com/LucasBasso83/Piva.git
+PS C:\dsm\pythonProject\aula5> git commit -m "commit02"
+PS C:\dsm\pythonProject\aula5> git add .
+PS C:\dsm\pythonProject\aula5> git commit -m "commit02"
+On branch master
+nothing to commit, working tree clean
+PS C:\dsm\pythonProject\aula5> git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\dsm\pythonProject\aula5> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/LucasBasso83/Piva.git'
+PS C:\dsm\pythonProject\aula5> git branch -M main
+PS C:\dsm\pythonProject\aula5> git push -u origin main
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (19/19), 2.95 KiB | 377.00 KiB/s, done.
+Total 19 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/LucasBasso83/Piva.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\dsm\pythonProject\aula5>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
