@@ -1,0 +1,43 @@
+/* Color Theme Swatches in Hex */
+.Moda-1-hex { color: #50ABBF; }
+.Moda-2-hex { color: #5F8C32; }
+.Moda-3-hex { color: #61733C; }
+.Moda-4-hex { color: #8B8C68; }
+.Moda-5-hex { color: #592520; }
+
+/* Color Theme Swatches in RGBA */
+.Moda-1-rgba { color: rgba(80, 170, 191, 1); }
+.Moda-2-rgba { color: rgba(95, 140, 50, 1); }
+.Moda-3-rgba { color: rgba(97, 114, 59, 1); }
+.Moda-4-rgba { color: rgba(139, 140, 103, 1); }
+.Moda-5-rgba { color: rgba(89, 36, 32, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Moda-1-hsla { color: hsla(191, 46, 53, 1); }
+.Moda-2-hsla { color: hsla(90, 47, 37, 1); }
+.Moda-3-hsla { color: hsla(78, 31, 34, 1); }
+.Moda-4-hsla { color: hsla(61, 14, 47, 1); }
+.Moda-5-hsla { color: hsla(5, 47, 23, 1); }
+
+/* Color Theme Swatches in Hex */
+.Moda-1-hex { color: #50ABBF; }
+.Moda-2-hex { color: #5F8C32; }
+.Moda-3-hex { color: #61733C; }
+.Moda-4-hex { color: #8B8C68; }
+.Moda-5-hex { color: #592520; }
+
+/* Color Theme Swatches in RGBA */
+.Moda-1-rgba { color: rgba(80, 170, 191, 1); }
+.Moda-2-rgba { color: rgba(95, 140, 50, 1); }
+.Moda-3-rgba { color: rgba(97, 114, 59, 1); }
+.Moda-4-rgba { color: rgba(139, 140, 103, 1); }
+.Moda-5-rgba { color: rgba(89, 36, 32, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Moda-1-hsla { color: hsla(191, 46, 53, 1); }
+.Moda-2-hsla { color: hsla(90, 47, 37, 1); }
+.Moda-3-hsla { color: hsla(78, 31, 34, 1); }
+.Moda-4-hsla { color: hsla(61, 14, 47, 1); }
+.Moda-5-hsla { color: hsla(5, 47, 23, 1); }
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
