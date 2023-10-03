@@ -1,0 +1,9 @@
+table,td,th,tr{
+    border:5px solid rgba(80, 170, 191, 1);
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+    background: rgba(97, 114, 59, 1)
+}
+.imagemBolo{height: 75%;width: 75%;}
