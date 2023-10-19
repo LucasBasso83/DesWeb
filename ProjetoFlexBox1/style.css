@@ -1,0 +1,14 @@
+h2{
+    color: blue;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+section{
+    border: 1px solid brown;
+    display: flex;
+    flex-direction: row;
+}
