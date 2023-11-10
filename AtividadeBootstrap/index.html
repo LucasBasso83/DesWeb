@@ -12,12 +12,13 @@
 <body>
   <main class="container-fluid">
        
+    
+    <div class="alert alert-primary" role="alert">
+      <h6>Hamburgueria XGostoso</h6>
+      <h6>17:34:16</h6>
+    </div>
+    
     <form>
-      
-      <div class="alert alert-primary" role="alert">
-        <h6>Hamburgueria XGostoso</h6>
-        <h6>17:34:16</h6>
-      </div>
       <div class="row">    
         <div class="col-md-4">
           <label for="name" class="form-label">Telefone: <i class="ri-phone-line"></i></label>
@@ -80,22 +81,22 @@
         </div>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <button type="button" class="btn btn-primary" onclick="calcularPacote()">Calcular</button>
-            <button type="button" class="btn btn-primary">Novo Pedido</button>
+            <button type="reset" class="btn btn-primary">Novo Pedido</button>
             <button type="button" class="btn btn-primary">Recibo</button>
         </div>
 
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Total a Pagar <i class="ri-refund-2-line"></i></label>
-            <input type="number" class="form-control" id="exampleFormControlInput1" disabled>
+            <label for="valorTotal" class="form-label">Total a Pagar <i class="ri-refund-2-line"></i></label>
+            <input type="number" class="form-control" id="valorTotal" disabled>
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Descrição do Pedido</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" disabled></textarea>
+            <label for="descricaoPedido" class="form-label">Descrição do Pedido</label>
+            <textarea class="form-control" id="descricaoPedido" rows="3" disabled></textarea>
           </div>
-
-    </div>
+        
+        </form>
+    
       
-    </form>
     
     
     <br>

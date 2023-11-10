@@ -3,19 +3,21 @@ function calcularPacote()
 {
     let pedido = 0;
     let adicionais = 0;
-    let tipoPedido = document.querySelector("select[name='combos']").value;
+    let valorEntrega = 0;
+    let valorTotalPedido = 0;
+
+    let tipoPedido = Number(document.querySelector("select[name='combos']").value);
     console.log(tipoPedido);
 
     let qtdEntrega = document.querySelectorAll("input[name='entrega']").length;
     let tipoEntrega = document.querySelectorAll("input[name='entrega']");
-    console.log(tipoEntrega);
     for(var i=0; i<qtdEntrega; i++){
         if (tipoEntrega[i].checked == true)
         {
             valorEntrega = valorEntrega + parseFloat(tipoEntrega[i].value);   
        }
     }
-    console.log(qtdEntrega); 
+    console.log(valorEntrega); 
 
     let queijo = document.querySelector("input[name='queijo']");  
     let carne = document.querySelector("input[name='carne']");    
@@ -33,5 +35,13 @@ function calcularPacote()
            adicionais = Number(picles.value) + adicionais;
         };
     console.log(adicionais);
+
+    valorTotalPedido = tipoPedido + valorEntrega + adicionais
+
+    document.getElementById("valorTotal").value = valorTotalPedido
+    
+    document.getElementById("descricaoPedido").innerText = `O valor do lanche é: ${tipoPedido},  da entrega é: ${valorEntrega} e dos adicionais é: ${adicionais}`
+      
+    
     
 }
